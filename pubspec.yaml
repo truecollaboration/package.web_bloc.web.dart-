@@ -9,6 +9,8 @@ environment:
 dependencies:    
   meta: any
   
+  logger: any
+  
   bloc_common:
     git:
       url: https://github.com/TrueCollaboration/package.bloc_common.dart.git
