@@ -6,8 +6,8 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: f6f02f77fb403f5a2edb70eab17c328c24a445e5
-      url: "https://github.com/TrueCollaboration/package.bloc_common.dart.git"
+      resolved-ref: "76b2638e36ba98e86a461df95fbcb40a25b7f2ec"
+      url: "https://github.com/pshonkaaa/package.bloc_common.dart.git"
     source: git
     version: "0.0.2"
   clock:
@@ -18,6 +18,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
+  foundation:
+    dependency: transitive
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: cea8c35047443264471b09abd48422aa20ed9014
+      url: "https://github.com/pshonkaaa/package.foundation.dart.git"
+    source: git
+    version: "0.1.0"
   intl:
     dependency: transitive
     description:
@@ -46,10 +55,10 @@ packages:
     dependency: "direct main"
     description:
       name: meta
-      sha256: d584fa6707a52763a52446f02cc621b077888fb63b93bbcb1143a7be5a0c0c04
+      sha256: "7687075e408b093f36e6bbf6c91878cc0d4cd10f409506f7bc996f68220b9136"
       url: "https://pub.dev"
     source: hosted
-    version: "1.11.0"
+    version: "1.12.0"
   path:
     dependency: transitive
     description:
@@ -62,18 +71,9 @@ packages:
     dependency: transitive
     description:
       name: synchronized
-      sha256: "5fcbd27688af6082f5abd611af56ee575342c30e87541d0245f7ff99faa02c60"
+      sha256: "539ef412b170d65ecdafd780f924e5be3f60032a1128df156adad6c5b373d558"
       url: "https://pub.dev"
     source: hosted
-    version: "3.1.0"
-  true_core:
-    dependency: transitive
-    description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "412c7e33b4dadbadc2ed57bf14ac78940efcef27"
-      url: "https://github.com/TrueCollaboration/package.true_core.dart.git"
-    source: git
-    version: "0.0.8"
+    version: "3.1.0+1"
 sdks:
   dart: ">=3.0.0 <4.0.0"
