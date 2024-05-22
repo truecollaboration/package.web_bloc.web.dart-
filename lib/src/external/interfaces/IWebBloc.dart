@@ -1,6 +1,5 @@
-import 'dart:html';
-
 import 'package:bloc_common/library.dart';
+import 'package:web/web.dart';
 
 abstract class IWebBloc<TEnum> implements ICommonBloc<TEnum, Element> {
   @override

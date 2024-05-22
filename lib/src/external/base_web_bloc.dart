@@ -1,7 +1,6 @@
-import 'dart:html';
-
 import 'package:bloc_common/library.dart';
 import 'package:logger/logger.dart';
+import 'package:web/web.dart';
 
 import 'interfaces/IWebBloc.dart';
 
@@ -12,7 +11,22 @@ abstract class BaseWebBloc<T extends IRepository, TEnum extends Object> extends 
   static Logger? get defaultLogger
     => BaseCommonBloc.defaultLogger;
     
-    BaseWebBloc({
+  BaseWebBloc({
     required super.repository,
   });
+  
+  @override
+  void initState(Element context) {
+    super.initState(context);
+  }
+  
+  @override
+  void onEvent(TEnum type, [IBlocEvent event = IBlocEvent.empty]) {
+    super.onEvent(type, event);
+  }
+  
+  @override
+  void dispose() {
+    super.dispose();
+  }
 }

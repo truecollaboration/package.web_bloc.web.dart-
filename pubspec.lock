@@ -6,7 +6,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "76b2638e36ba98e86a461df95fbcb40a25b7f2ec"
+      resolved-ref: cfd0980b583145fd3497610c113de59fd94c2271
       url: "https://github.com/pshonkaaa/package.bloc_common.dart.git"
     source: git
     version: "0.0.2"
@@ -18,15 +18,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
-  pshondation:
-    dependency: transitive
-    description:
-      path: "."
-      ref: HEAD
-      resolved-ref: cea8c35047443264471b09abd48422aa20ed9014
-      url: "https://github.com/pshonkaaa/package.pshondation.dart.git"
-    source: git
-    version: "0.1.0"
   intl:
     dependency: transitive
     description:
@@ -39,10 +30,10 @@ packages:
     dependency: "direct main"
     description:
       name: logger
-      sha256: "6bbb9d6f7056729537a4309bda2e74e18e5d9f14302489cc1e93f33b3fe32cac"
+      sha256: af05cc8714f356fd1f3888fb6741cbe9fbe25cdb6eedbab80e1a6db21047d4a4
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.2+1"
+    version: "2.3.0"
   logging:
     dependency: transitive
     description:
@@ -55,10 +46,10 @@ packages:
     dependency: "direct main"
     description:
       name: meta
-      sha256: "7687075e408b093f36e6bbf6c91878cc0d4cd10f409506f7bc996f68220b9136"
+      sha256: bdb68674043280c3428e9ec998512fb681678676b3c54e773629ffe74419f8c7
       url: "https://pub.dev"
     source: hosted
-    version: "1.12.0"
+    version: "1.15.0"
   path:
     dependency: transitive
     description:
@@ -67,6 +58,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.0"
+  pshondation:
+    dependency: transitive
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "39eaa11ac732d38a7e6bca32e258fdfbfa29e97d"
+      url: "https://github.com/pshonkaaa/package.pshondation.dart.git"
+    source: git
+    version: "0.1.0"
   synchronized:
     dependency: transitive
     description:
@@ -75,5 +75,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.0+1"
+  web:
+    dependency: "direct main"
+    description:
+      name: web
+      sha256: "97da13628db363c635202ad97068d47c5b8aa555808e7a9411963c533b449b27"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.1"
 sdks:
-  dart: ">=3.0.0 <4.0.0"
+  dart: ">=3.3.1 <4.0.0"
